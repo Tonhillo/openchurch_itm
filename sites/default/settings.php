@@ -295,7 +295,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '0g1rqSsJJfHJHP4RuRM9My_kl1LI_yX0dvxH2DjJHBoLuoDbyvzJ5IjInl_2qbmtx59hj9mcnw';
+$settings['hash_salt'] = 'tzZR2Nr_v11GY3INcZh8I5LfXcgJBTLSE9ii9pA2uh58su2ly5WCyx-FN17I23fIQOhQ5Z01xA';
 
 /**
  * Deployment identifier.
@@ -764,9 +764,9 @@ $settings['file_scan_ignore_directories'] = [
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'openchurch',
-  'username' => 'root',
-  'password' => '',
+  'database' => 'openchurch_tonhillo',
+  'username' => 'tonhillo',
+  'password' => 'password',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',
@@ -774,4 +774,4 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'openchurch';
-$config_directories['sync'] = 'sites/default/files/config_0Ua6mruTAzYLIEkvRDqGtSLdfj0ImHBxSS12g3rjDbwfNgqyJ9VJyGX82NTGq1okSu2wWn6o-w/sync';
+$config_directories['sync'] = 'sites/default/files/config_oOnDCqpLuqfps02qTCi5N5cXPxjmB7zGtg54Wcr1bUR2h1Ik-ygCymhG1SeS2eBe1yfK8P6zyw/sync';
